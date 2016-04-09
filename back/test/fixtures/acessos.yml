@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pagina: Index
+  contato_id: contatos
+
+two:
+  pagina: Home
+  contato_id: contatos

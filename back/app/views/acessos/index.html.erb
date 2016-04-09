@@ -1,0 +1,25 @@
+ 
+<table cellspacing="3" border="1" cellpadding:"7" align="center" width="70%">
+  <tr>
+    <td colspan="6" align="center"><h1>Listagem de acessos</h1></td>
+  </tr>
+  <tr>
+    <th>ID</th>
+    <th>Pagina</th>
+    <th>ID_contato</th>
+    <th>Contato_Nome</th>
+    <th>Contato_Email</th>
+    <th>Created_at</th>
+  </tr>
+ 
+  <% @acesso.each do |access| %>
+    <tr>
+      <td><%= access.id %></td>
+      <td><%= access.pagina %></td>
+      <td><%= access.contato.id %></td>
+      <td><%= access.contato.nome %></td>
+      <td><%= access.contato.email %></td>
+      <td><%= access.created_at.strftime("%d/%m/%Y %T") %></td>
+    </tr>
+  <% end %>
+</table>

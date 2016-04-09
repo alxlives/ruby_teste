@@ -1,0 +1,17 @@
+<h1>Novo Acesso</h1>
+
+<%= form_for :acesso, url: acessos_path do |f| %>
+  <p>
+    <%= f.label :pagina %><br>
+    <%= f.text_field :pagina %>
+  </p>
+ 
+  <p>
+    <%= f.label :contato_id %><br>
+    <%= f.text_field :contato_id %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

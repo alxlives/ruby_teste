@@ -1,0 +1,17 @@
+<h1>Novo Contato</h1>
+
+<%= form_for :contato, url: contatos_path do |f| %>
+  <p>
+    <%= f.label :nome %><br>
+    <%= f.text_field :nome %>
+  </p>
+ 
+  <p>
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
