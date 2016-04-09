@@ -32,7 +32,7 @@ Install Steps
 
 bundle install
 
-3) run the command acording your operational system:
+3) Run the command acording your operational system:
 
 - Linux / Mac OS: 
 
@@ -45,24 +45,24 @@ bin/rails server
 ruby bin/rails server
 ```
 
-4) open the browser and access the server running path (default http://localhost:3000). If it shows a "Home Index!" message, your server is running.
+4) Open the browser and access the server running path (default http://localhost:3000). If it shows a "Home Index!" message, your server is running.
 
-5) copy the front folder into your local server;
+5) Copy the front folder into your local server;
 
-6) open the index.html file on your local server (ex: http://localhost/front/index.html)
+6) Open the index.html file on your local server (ex: http://localhost/front/index.html)
 
-6) enter a name and an email. If the popup messages "login feito com sucesso" (login success) and "acesso salvo" (access saved) shows up, the environment is working.
+6) Enter a name and an email. If the popup messages "login feito com sucesso" (login success) and "acesso salvo" (access saved) shows up, the environment is working.
 
-7) enter on your server running page /contatos (http://localhost:3000/acessos). It will show you the last 50 recorded entries on a desc order.
+7) Enter on your server running page /contatos (http://localhost:3000/acessos). It will show you the last 50 recorded entries on a desc order.
 
 How it works
 ===================
 
 The backend has two main services:
 
-- /contatosCreate -> receive both "nome" (name) and "email" vars, record the user on the database and then return its id. If the email already exist, it returns the previous recorded user.
+- /contatosCreate -> Receive both "nome" (name) and "email" vars, record the user on the database and then return its id. If the email already exist, it returns the previous recorded user.
 
-- /acessosCreate -> receive the user id ("contato_id") and the page name, records the access and then return its id.
+- /acessosCreate -> Receive the user id ("contato_id") and the page name, records the access and then return its id.
 
 The Javascript receive the login information send to the Ruby backend and receive a response. If there is alredy an user with the same email, it will return the previous user.
 
@@ -73,21 +73,21 @@ Customization
 
 The rails_tracker.js file (inside front/js folder) can be embeded by any html file. To use it as a stand-alone file, follow the steps below:
 
-1) copy it to your project;
+1) Copy it to your project;
 
-2) embed jquery in the html file header:
+2) Embed jquery in the html file header:
 
 ```
 <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 ```
 
-3) embed the rails_tracker.js file in the header;
+3) Embed the rails_tracker.js file in the header;
 
 ```
 <script type='text/javascript' src='js/rails_tracker.js'></script>
 ```
 
-4) open the rails_tracker.js file (/js) and configure the following vars:
+4) Open the rails_tracker.js file (/js) and configure the following vars:
 
 ```
 var base_url = "http://localhost:3000";
