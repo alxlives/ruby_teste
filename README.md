@@ -53,7 +53,7 @@ ruby bin/rails server
 
 6) Enter a name and an email. If the popup messages "login feito com sucesso" (login success) and "acesso salvo" (access saved) shows up, the environment is working.
 
-7) Enter on your server running page /contatos (http://localhost:3000/acessos). It will show you the last 50 recorded entries on a desc order.
+7) Enter on your server running page /acessos (http://localhost:3000/acessos). It will show you the last 50 recorded entries on a desc order.
 
 How it works
 ===================
