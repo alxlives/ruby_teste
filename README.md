@@ -3,11 +3,11 @@ Introduction
 
 This tutorial assumes that you have the following environment installed and configured:
 
-Ruby 2.2.4;
-rails 4.2.6;
-sqlite3;
-bundler 1.11.2;
-Local web server (such as Apache)
+- Ruby 2.2.4;
+- rails 4.2.6;
+- sqlite3;
+- bundler 1.11.2;
+- Local web server (such as Apache)
 
 If any of them are ruby gems missing, you may want to reinstall the Ruby environment and then, run the command that install the newest version of Rails:
 
