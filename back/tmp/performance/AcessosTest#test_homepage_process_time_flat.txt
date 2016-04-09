@@ -1,0 +1,10 @@
+Measure Mode: process_time_time
+Thread ID: 20472972
+Fiber ID: 20293392
+Total: 0.016000
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+100.00      0.016     0.016     0.000     0.000        2   <Class::ActiveRecord::ExplainRegistry>#collect?
+
+* indicates recursively called methods

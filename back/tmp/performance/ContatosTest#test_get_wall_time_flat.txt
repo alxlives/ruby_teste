@@ -1,0 +1,15 @@
+Measure Mode: wall_time
+Thread ID: 20079756
+Fiber ID: 19903176
+Total: 0.003503
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 14.31      0.001     0.001     0.000     0.000        4   ActiveSupport::Notifications::Instrumenter#instrument
+ 14.30      0.001     0.001     0.000     0.000       29   ActiveSupport::PerThreadRegistry#instance
+ 14.30      0.001     0.001     0.000     0.000       24   String#to_i
+ 14.27      0.000     0.000     0.000     0.000        1   ActiveSupport::Testing::TaggedLogging#before_setup
+ 14.27      0.002     0.000     0.000     0.001        1   ActiveRecord::Querying#find_by_sql
+ 14.27      0.002     0.000     0.000     0.001       12  *Array#map
+
+* indicates recursively called methods

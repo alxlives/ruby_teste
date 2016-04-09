@@ -1,0 +1,1614 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report: process_time_time</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+
+      <tr>
+        <td>20079756</td>
+        <td><a href="#19903176">19903176</a></td>
+        <td>0.014999999999998792</td>
+      </tr>
+
+    </table>
+    <!-- Methods Tables -->
+
+      <h2><a name="19903176">Thread 20079756, Fiber: 19903176</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>%Total</th>
+            <th>%Self</th>
+            <th>Total</th>
+            <th>Self</th>
+            <th>Wait</th>
+            <th>Child</th>
+            <th>Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+        <tbody>
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveSupport__Testing__Performance__Profiler_run_19903176">
+                      ActiveSupport::Testing::Performance::Profiler#run
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb#38" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb:38">38</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/3</td>
+                   <td class="method_name"><a href="#Integer_times_19903176">Integer#times</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb#39" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb:39">39</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name">Integer#to_i</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb#39" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb:39">39</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveSupport::Testing::Performance::Performer#full_profile_options</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb#39" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb:39">39</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/119</td>
+                   <td class="method_name">Kernel#respond_to?</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb#38" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb:38">38</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/3</td>
+                   <td class="method_name">Enumerator#each</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/3</td>
+                   <td class="method_name">ActionDispatch::Journey::Path::Pattern::MatchData#captures</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/journey/path/pattern.rb#143" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/journey/path/pattern.rb:143">143</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/3</td>
+                   <td class="method_name"><a href="#ActiveSupport__Testing__Performance__Profiler_run_19903176">ActiveSupport::Testing::Performance::Profiler#run</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb#39" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance/ruby.rb:39">39</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>3</td>
+                 <td class="method_name">
+                   <a name="Integer_times_19903176">
+                     *Integer#times
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveSupport__Testing__Performance__Performer_run_test_19903176">ActiveSupport::Testing::Performance::Performer#run_test</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Integer_times_19903176">Integer#times</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveSupport__Testing__Performance__Performer_run_test_19903176">
+                      ActiveSupport::Testing::Performance::Performer#run_test
+                   </a>
+                 </td>
+                 <td><a href="file://C:/wamp/www/rails_teste_v2/back/C#0" title="C:/wamp/www/rails_teste_v2/back/C:0">0</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveSupport__Testing__Performance_run_test_19903176">ActiveSupport::Testing::Performance#run_test</a></td>
+                   <td><a href="file://C:/wamp/www/rails_teste_v2/back/C#0" title="C:/wamp/www/rails_teste_v2/back/C:0">0</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveSupport__Testing__Performance__Performer_run_test_19903176">ActiveSupport::Testing::Performance::Performer#run_test</a></td>
+                   <td><a href="file://C:/wamp/www/rails_teste_v2/back/C#0" title="C:/wamp/www/rails_teste_v2/back/C:0">0</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveSupport__Testing__Performance_run_test_19903176">
+                      ActiveSupport::Testing::Performance#run_test
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#77" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:77">77</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__TestFixtures_before_setup_19903176">ActiveRecord::TestFixtures#before_setup</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#80" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:80">80</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveSupport::Testing::Performance::Metrics::Base#profile</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#83" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:83">83</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">Minitest::Test::LifecycleHooks#before_teardown</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#88" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:88">88</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">Minitest::Test::LifecycleHooks#teardown</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#89" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:89">89</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">Minitest::Test::LifecycleHooks#after_setup</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#82" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:82">82</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">Minitest::Test::LifecycleHooks#setup</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#81" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:81">81</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::TestFixtures#after_teardown</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#90" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:90">90</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveSupport__Testing__Performance_run_test_19903176">ActiveSupport::Testing::Performance#run_test</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb#80" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rails-perftest-0.0.6/lib/rails/perftest/active_support/testing/performance.rb:80">80</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveRecord__TestFixtures_before_setup_19903176">
+                      ActiveRecord::TestFixtures#before_setup
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#825" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:825">825</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__TestFixtures_setup_fixtures_19903176">ActiveRecord::TestFixtures#setup_fixtures</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#826" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:826">826</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveSupport::Testing::SetupAndTeardown#before_setup</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#827" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:827">827</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__TestFixtures_before_setup_19903176">ActiveRecord::TestFixtures#before_setup</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#826" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:826">826</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveRecord__TestFixtures_setup_fixtures_19903176">
+                      ActiveRecord::TestFixtures#setup_fixtures
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#927" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:927">927</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__TestFixtures_enlist_fixture_connections_19903176">ActiveRecord::TestFixtures#enlist_fixture_connections</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#944" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:944">944</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/21</td>
+                   <td class="method_name">Kernel#hash</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#939" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:939">939</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveSupport::TestCase#use_instantiated_fixtures</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#956" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:956">956</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/185</td>
+                   <td class="method_name">Array#each</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#945" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:945">945</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/140</td>
+                   <td class="method_name">Kernel#class</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#939" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:939">939</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/2</td>
+                   <td class="method_name">ActiveRecord::TestFixtures#run_in_transaction?</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#937" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:937">937</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveSupport::TestCase#pre_loaded_fixtures</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#928" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:928">928</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__TestFixtures_setup_fixtures_19903176">ActiveRecord::TestFixtures#setup_fixtures</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#944" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:944">944</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveRecord__TestFixtures_enlist_fixture_connections_19903176">
+                      ActiveRecord::TestFixtures#enlist_fixture_connections
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#973" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:973">973</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/14</td>
+                   <td class="method_name"><a href="#Array_map_19903176">Array#map</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#974" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:974">974</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/5</td>
+                   <td class="method_name">Symbol#to_proc</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#974" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:974">974</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/2</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionHandler#connection_pool_list</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#974" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:974">974</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/7</td>
+                   <td class="method_name">&lt;Class::ActiveRecord::Base&gt;#connection_handler</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#974" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:974">974</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">ActionView::Helpers::AssetTagHelper#javascript_include_tag</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/helpers/asset_tag_helper.rb#64" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/helpers/asset_tag_helper.rb:64">64</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">Rack::Test::CookieJar#for</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rack-test-0.6.3/lib/rack/test/cookie_jar.rb#149" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/rack-test-0.6.3/lib/rack/test/cookie_jar.rb:149">149</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">ActionDispatch::FileHandler#match?</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb#27" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/static.rb:27">27</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">ActionDispatch::Journey::GTG::TransitionTable#move</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/journey/gtg/transition_table.rb#55" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/journey/gtg/transition_table.rb:55">55</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">ActionView::PathSet#typecast</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/path_set.rb#79" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/path_set.rb:79">79</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">ActionController::Rendering#process_action</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb#9" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_controller/metal/rendering.rb:9">9</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">Sprockets::Rails::Helper#javascript_include_tag</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.0.4/lib/sprockets/rails/helper.rb#144" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.0.4/lib/sprockets/rails/helper.rb:144">144</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">Sprockets::Rails::Helper#stylesheet_link_tag</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.0.4/lib/sprockets/rails/helper.rb#173" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.0.4/lib/sprockets/rails/helper.rb:173">173</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">ActionView::Helpers::AssetTagHelper#stylesheet_link_tag</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/helpers/asset_tag_helper.rb#103" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/helpers/asset_tag_helper.rb:103">103</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/14</td>
+                   <td class="method_name">Sprockets::Rails::Helper#asset_resolver_strategies</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.0.4/lib/sprockets/rails/helper.rb#240" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.0.4/lib/sprockets/rails/helper.rb:240">240</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/14</td>
+                   <td class="method_name">ActionView::Resolver#cached</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/template/resolver.rb#148" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionview-4.2.6/lib/action_view/template/resolver.rb:148">148</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/14</td>
+                   <td class="method_name"><a href="#ActiveRecord__TestFixtures_enlist_fixture_connections_19903176">ActiveRecord::TestFixtures#enlist_fixture_connections</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb#974" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/fixtures.rb:974">974</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>14</td>
+                 <td class="method_name">
+                   <a name="Array_map_19903176">
+                     *Array#map
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/4</td>
+                   <td class="method_name"><a href="#ActiveRecord__ConnectionAdapters__ConnectionPool_connection_19903176">ActiveRecord::ConnectionAdapters::ConnectionPool#connection</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/10</td>
+                   <td class="method_name">Hash#merge!</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionView::Helpers::AssetTagHelper#javascript_include_tag</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/216</td>
+                   <td class="method_name">Class#new</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name">&lt;Module::Sprockets::Rails::HelperAssetResolvers&gt;#[]</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionView::Helpers::TagHelper#tag</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionView::Helpers::AssetUrlHelper#javascript_path</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionView::Helpers::AssetUrlHelper#stylesheet_path</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionView::Helpers::AssetTagHelper#stylesheet_link_tag</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/3</td>
+                   <td class="method_name">Mime::Type#ref</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/63</td>
+                   <td class="method_name">Module#===</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/3</td>
+                   <td class="method_name">Rack::Utils#clean_path_info</td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionView::Helpers::TagHelper#content_tag</td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/4</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionHandler#retrieve_connection</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#571" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:571">571</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/4</td>
+                   <td class="method_name"><a href="#Array_map_19903176">Array#map</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>4</td>
+                 <td class="method_name">
+                   <a name="ActiveRecord__ConnectionAdapters__ConnectionPool_connection_19903176">
+                      ActiveRecord::ConnectionAdapters::ConnectionPool#connection
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#259" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:259">259</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/22</td>
+                   <td class="method_name"><a href="#MonitorMixin_mon_synchronize_19903176">MonitorMixin#mon_synchronize</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#264" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:264">264</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>4/76</td>
+                   <td class="method_name">ThreadSafe::Cache#[]</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#264" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:264">264</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>4/6</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#264" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:264">264</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#checkin</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#361" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:361">361</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#release_connection</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#280" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:280">280</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/22</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool::Queue#synchronize</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#145" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:145">145</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name">ActionDispatch::Response#sent!</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb#173" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb:173">173</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>7/22</td>
+                   <td class="method_name">Logger::LogDevice#write</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/logger.rb#595" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/logger.rb:595">595</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/22</td>
+                   <td class="method_name">ActionDispatch::Response#body=</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb#233" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb:233">233</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name">ActionDispatch::Response#sending!</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb#165" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb:165">165</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/22</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#connected?</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#299" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:299">299</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name">ActionDispatch::Response#committed?</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb#180" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/http/response.rb:180">180</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name"><a href="#ActiveRecord__ConnectionAdapters__AbstractAdapter_lease_19903176">ActiveRecord::ConnectionAdapters::AbstractAdapter#lease</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb#143" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:143">143</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/22</td>
+                   <td class="method_name"><a href="#ActiveRecord__ConnectionAdapters__ConnectionPool_checkout_19903176">ActiveRecord::ConnectionAdapters::ConnectionPool#checkout</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#348" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348">348</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/22</td>
+                   <td class="method_name"><a href="#ActiveRecord__ConnectionAdapters__ConnectionPool_connection_19903176">ActiveRecord::ConnectionAdapters::ConnectionPool#connection</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#264" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:264">264</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>22</td>
+                 <td class="method_name">
+                   <a name="MonitorMixin_mon_synchronize_19903176">
+                     *MonitorMixin#mon_synchronize
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#208" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:208">208</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__ConnectionAdapters__ConnectionPool_checkout_19903176">ActiveRecord::ConnectionAdapters::ConnectionPool#checkout</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#263" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:263">263</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#ActiveRecord__ConnectionAdapters__AbstractAdapter_lease_19903176">ActiveRecord::ConnectionAdapters::AbstractAdapter#lease</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#350" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:350">350</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/3</td>
+                   <td class="method_name">ActionDispatch::Response#munge_body_object</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#234" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:234">234</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#release</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#368" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:368">368</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::AbstractAdapter#_run_checkin_callbacks</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#364" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:364">364</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#checkin</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#282" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:282">282</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ThreadSafe::MriCacheBackend#delete</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#281" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:281">281</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name">MonitorMixin::ConditionVariable#broadcast</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#168" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:168">168</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActionDispatch::Response#before_sending</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#166" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:166">166</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/20</td>
+                   <td class="method_name">Array#any?</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#299" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:299">299</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>3/3</td>
+                   <td class="method_name">ActionDispatch::Response#build_buffer</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#234" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:234">234</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool::Queue#add</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#370" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:370">370</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>7/7</td>
+                   <td class="method_name">IO#write</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#604" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:604">604</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/152</td>
+                   <td class="method_name">&lt;Class::Thread&gt;#current</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#145" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:145">145</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool::Queue#no_wait_poll</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#137" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:137">137</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#checkout_and_verify</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#351" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:351">351</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/12</td>
+                   <td class="method_name">Array#push</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#99" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:99">99</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#acquire_connection</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#349" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:349">349</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>22/22</td>
+                   <td class="method_name">MonitorMixin#mon_exit</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#213" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:213">213</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/7</td>
+                   <td class="method_name">ThreadSafe::MriCacheBackend#[]=</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#263" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:263">263</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name">MonitorMixin::ConditionVariable#signal</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#100" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:100">100</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/76</td>
+                   <td class="method_name">ThreadSafe::Cache#[]</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#263" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:263">263</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/6</td>
+                   <td class="method_name">ActiveRecord::ConnectionAdapters::ConnectionPool#current_connection_id</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#263" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:263">263</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>22/22</td>
+                   <td class="method_name">MonitorMixin#mon_enter</td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#209" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:209">209</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#MonitorMixin_mon_synchronize_19903176">MonitorMixin#mon_synchronize</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#263" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:263">263</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveRecord__ConnectionAdapters__ConnectionPool_checkout_19903176">
+                      ActiveRecord::ConnectionAdapters::ConnectionPool#checkout
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#347" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:347">347</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/22</td>
+                   <td class="method_name"><a href="#MonitorMixin_mon_synchronize_19903176">MonitorMixin#mon_synchronize</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb#348" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:348">348</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.01</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#MonitorMixin_mon_synchronize_19903176">MonitorMixin#mon_synchronize</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb#350" title="C:/Rails/Ruby2.2.0/lib/ruby/2.2.0/monitor.rb:350">350</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.00%</td>
+                 <td>0.01</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.01</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="ActiveRecord__ConnectionAdapters__AbstractAdapter_lease_19903176">
+                      ActiveRecord::ConnectionAdapters::AbstractAdapter#lease
+                   </a>
+                 </td>
+                 <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb#142" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:142">142</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.01</td>
+                   <td>0.01</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/22</td>
+                   <td class="method_name"><a href="#MonitorMixin_mon_synchronize_19903176">MonitorMixin#mon_synchronize</a></td>
+                   <td><a href="file://C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb#143" title="C:/Rails/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/activerecord-4.2.6/lib/active_record/connection_adapters/abstract_adapter.rb:143">143</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+
+  </body>
+</html>

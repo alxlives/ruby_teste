@@ -1,0 +1,9 @@
+Measure Mode: process_time_time
+Thread ID: 20079756
+Fiber ID: 19903176
+Total: 0.015000
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+
+* indicates recursively called methods
